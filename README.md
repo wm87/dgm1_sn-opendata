@@ -148,13 +148,6 @@ Dieses Projekt steht unter der **Apache License Version 2.0**. Siehe [LICENSE](.
 
 ---
 
-## Autor
-
-\[Dein Name] – \[[dein.email@example.com](mailto:dein.email@example.com)]
-[GitHub-Profil](https://github.com/deinbenutzername)
-
----
-
 ## Inspiration & Tools
 
 * Datenquelle: [Geoportal Sachsen](https://www.geodaten.sachsen.de/)
