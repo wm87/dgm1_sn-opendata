@@ -127,6 +127,36 @@ Diese Dateien können direkt in QGIS oder ArcGIS geladen werden.
 
 ---
 
+## Beispiel-Ausgabe in QGIS
+
+![DGM1_SN](screen.png "dgm1_sn")
+
+---
+
+
+## Verwendetes Setup
+
+| Komponente       | Spezifikation                          |
+|------------------|----------------------------------------|
+| CPU              | Intel Core i7-8700K (6 Kerne)          |
+| RAM              | 61 GB DDR4 @ 3000 MHz                  |
+| Speicher         | 1 TB SSD                               |
+| Betriebssystem   | Ubuntu 25.04                           |
+| Virtualisierung  | VMware Workstation                     |
+| Datenbank        | PostgreSQL 17.5                        |
+| Geodaten-Tool    | GDAL 3.12.0dev-1ba54d7f8a              |
+
+
+## Ergebnisse
+
+| Kategorie     | Wert / Beschreibung                        |
+|---------------|--------------------------------------------|
+| Datenmenge    | 89 GB (gepackt), ca. 1 TB (entpackt)       |
+| Datenformat   | CSV, XYZ                                   |
+| Laufzeit      | 17,5 Stunden (mit Parallelisierung)        |
+| Ergebnismenge   | 8,9 GB TIF- u. OVR-Dateien, 1xVRT-Datei                |
+
+
 ## Hinweise
 
 * Koordinatensystem: **ETRS89 / UTM Zone 33N (EPSG:25833)**
@@ -145,10 +175,3 @@ Diese Dateien können direkt in QGIS oder ArcGIS geladen werden.
 ## Lizenz
 
 Dieses Projekt steht unter der **Apache License Version 2.0**. Siehe [LICENSE](./LICENSE) für Details.
-
----
-
-## Inspiration & Tools
-
-* Datenquelle: [Geoportal Sachsen](https://www.geodaten.sachsen.de/)
-* Verwendete Tools: PostgreSQL, PostGIS, GDAL, GNU Parallel, Bash
