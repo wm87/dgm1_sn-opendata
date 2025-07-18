@@ -133,7 +133,6 @@ Diese Dateien können direkt in QGIS oder ArcGIS geladen werden.
 
 ---
 
-
 ## Verwendetes Setup
 
 | Komponente       | Spezifikation                          |
@@ -147,7 +146,7 @@ Diese Dateien können direkt in QGIS oder ArcGIS geladen werden.
 | Geodaten-Tool    | GDAL 3.12.0dev-1ba54d7f8a              |
 
 
-## Ergebnisse
+## Zahlen
 
 | Kategorie     | Wert / Beschreibung                        |
 |---------------|--------------------------------------------|
@@ -155,6 +154,7 @@ Diese Dateien können direkt in QGIS oder ArcGIS geladen werden.
 | Datenformat   | CSV, XYZ                                   |
 | Laufzeit      | 17,5 Stunden (mit Parallelisierung)        |
 | Ergebnismenge   | 8,9 GB TIF- u. OVR-Dateien, 1xVRT-Datei                |
+
 
 
 ## Hinweise
@@ -165,13 +165,15 @@ Diese Dateien können direkt in QGIS oder ArcGIS geladen werden.
 
 ---
 
-## Datenquelle
+## 📌 Lizenz & Nutzung
 
-* DGM1-Daten (XYZ als `.zip`-Pakete) können über das offizielle Geoportal Sachsen bezogen werden:
+Die Nutzung der Geodaten richtet sich nach den aktuellen Bedingungen des GeoSN. Bitte informiere dich direkt auf der Hauptseite oder im Datenbereich über die jeweils gültigen Lizenzregelungen:
+
+👉 [GeoSN Geodaten-Portal](https://www.geodaten.sachsen.de/)
+
+👉 [Allgemeine Nutzungsbedingungen](https://www.landesvermessung.sachsen.de/allgemeine-nutzungsbedingungen-8954.html)
+
+DGM1-Daten (XYZ als `.zip`-Pakete) können über das offizielle Geoportal Sachsen bezogen werden:
   [https://www.geodaten.sachsen.de/batch-download-4719.html](https://www.geodaten.sachsen.de/batch-download-4719.html)
 
----
-
-## Lizenz
-
-Dieses Projekt steht unter der **Apache License Version 2.0**. Siehe [LICENSE](./LICENSE) für Details.
+**Quelle: GeoSN, [dl-de/by-2-0](https://www.govdata.de/dl-de/by-2-0)**
